@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:background="#f00"
+            android:layout_width="2dp"
+            android:layout_marginLeft="3dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:textColor= "#000"
+            android:text="闪屏页案例"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginLeft="8dp"
+            android:text="闪屏1_倒计时"
+            android:id="@+id/btnSplash1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="闪屏2_View1"
+            android:textAllCaps="false"
+            android:id="@+id/btnSplash2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="闪屏3_View2"
+            android:textAllCaps="false"
+            android:id="@+id/btnSplash3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:background="#f00"
+            android:layout_width="2dp"
+            android:layout_marginLeft="3dp"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:textColor= "#000"
+            android:text="引导页案例"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:layout_marginLeft="8dp"
+        android:text="引导页1"
+        android:id="@+id/btnGuide1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <View
+        android:background="#f00"
+        android:layout_width="2dp"
+        android:layout_marginLeft="3dp"
+        android:layout_height="20dp"
+        />
+    <TextView
+        android:layout_marginLeft="3dp"
+        android:textColor= "#000"
+        android:text="CountDownTimer运用"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:layout_marginLeft="8dp"
+        android:id="@+id/btnCountDown"
+        android:layout_marginTop="5dp"
+        android:text="countDownTimer"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
